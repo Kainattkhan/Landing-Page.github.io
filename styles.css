@@ -1,0 +1,164 @@
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(to bottom, #0276f2, #041a9b);
+  }
+
+  .rounded-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .rounded-icon i {
+    font-size: 2em;
+    color: white;
+  }
+
+
+  .text-blue-light {
+    color: #c6d7f8; /* Use the desired color code */
+  }
+
+  .nav-container{
+    /* padding-left: 10px; */
+    margin-left: 60px;
+  }
+.bg-color {
+    background-color: #ebf1fa;
+}
+
+.for-img {
+    border-color: #c5ccd6;
+    border-left: 3px solid #adb0b3;
+    border-radius: 5px;
+
+}
+
+.line-spacing {
+    line-height: 1.8;
+}
+
+.pricing {
+    font-size: 40px;
+    font-weight:normal;
+}
+
+.round {
+    border-radius: 50px;
+    background-color: #c6d7f8;
+}
+.free {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #dee6f6;
+    padding:2px 6px 2px 6px;
+}
+
+.standard {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #dee6f6;
+    padding:2px 6px 2px 6px;
+    color:#729ff8
+}
+.enterprise {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #dee6f6;
+    padding:2px 6px 2px 6px;
+}
+.icon-ques {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    height: 2rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    color:white;
+    background-color: rgb(2, 174, 146);
+}
+
+.paras {
+    color:#0276f2;
+    font-size: 20px;
+}
+
+.social {
+    color:#b4b7bb;
+    font-size: 45px;
+    /* font-family: ; */
+}
+
+.position {
+    color:#808285
+}
+
+.hover-card {
+    transition: box-shadow 0.3s ease-in-out;
+    border:1px solid #d2d4d6;
+    border-radius: 5px;
+
+  }
+  
+.hover-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adjust shadow properties as needed */
+    transform: translate(0, -5px); /* Elevate the card slightly */
+  }
+
+.card-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%; 
+        background-color: rgb(95, 34, 181); 
+        margin-right: 10px;   
+}
+.card-icon i {
+    font-size: 1em;
+    color: white;
+  }
+
+  .card-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .links {
+    color:#adb0b3
+  }
+
+  .links a {
+    color:#adb0b3;
+    line-height: 2;
+  }
+  .headings{
+    font-size: 25px;
+  }
+
+
+  /* CSS FOR CURVED BORDERS */
+
+  .footer-curve__wrapper {
+    position: static;
+    height: auto;
+    margin-bottom: -5px;
+  }
+  
+  /*
+   just to demonstrate it in combination with another element
+  */
+  footer {
+    color: white;
+    background-color: #3ca3a2;
+  }
+  
+  
+  /*remove margin-padding from elements in footer*/
+  footer p {
+    margin: 0;
+    padding: 0;
+  }
